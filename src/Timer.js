@@ -22,6 +22,7 @@ class Timer extends Component {
     if (this.state.time === nextState.time) {
       return false
     }
+    return true 
   }
 
 
