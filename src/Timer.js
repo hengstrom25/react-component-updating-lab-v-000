@@ -19,7 +19,9 @@ class Timer extends Component {
   }
   
   shouldComponentUpdate(nextState) {
-    if (this.state.time === nextState.time
+    if (this.state.time === nextState.time) {
+      
+    }
   }
 
 
